@@ -1,0 +1,6 @@
+{
+  "name": "admin",
+  "dependencies": {
+    "sir-trevor-js": "0.3.0"
+  }
+}

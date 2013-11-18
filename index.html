@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bower_components/sir-trevor-js/sir-trevor.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/sir-trevor-js/sir-trevor-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+<body>
+
+<h1>Holy cow, an admin interface!</h1>
+
+<div data-select>
+	<input type="file" id="files" name="files[]" />
+	<output id="list"></output>
+</div>
+
+<div class="editor" data-edit>
+	<form data-form>
+	  	<textarea data-sir-trevor='st-1' class="js-st-instance"></textarea>
+	</form>	
+	<div class='text--center mx'>
+		<div class='btn btn--save' data-save>Save</div>
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="bower_components/Eventable/eventable.js"></script>
+<script type="text/javascript" src="bower_components/sir-trevor-js/sir-trevor.min.js"></script>
+
+<script type="text/javascript" src="lib/admin.js"></script>
+
+
+</body>
+</html>

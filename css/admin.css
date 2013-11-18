@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+}
+
+.editor {
+	margin-top: 1em;
+	padding-top:1em;
+	border-top: solid 1px #ddd;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background: #ddd;
+}
+
+.btn {
+	background: #34e0c2;
+	display: inline-block;
+	color: #fff;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 3;
+}
+
+.text--center {
+	text-align: center;
+}
+
+.mx 	{ margin-top: 1em; }
